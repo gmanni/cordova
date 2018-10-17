@@ -1,4 +1,5 @@
 npm install -g cordova
+npm install (per node_modules su un altro pc)
 cordova create <cartella> <identificatore reverse domain> <titolo_app>
 cordova platform add android (cordova platforms ls visualizza le platforms installate)
 cordova platform remove blackberry 
