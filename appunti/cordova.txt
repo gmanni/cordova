@@ -1,0 +1,7 @@
+npm install -g cordova
+cordova create <cartella> <identificatore reverse domain> <titolo_app>
+cordova platform add android (cordova platforms ls visualizza le platforms installate)
+cordova platform remove blackberry 
+cordova build
+cordova emulate android 
+cordova run android
