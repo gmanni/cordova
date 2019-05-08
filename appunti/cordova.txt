@@ -1,8 +1,15 @@
 npm install -g cordova
-npm install (per node_modules su un altro pc)
+npm install (per node_modules su un altro pc dalla cartella hello)
 cordova create <cartella> <identificatore reverse domain> <titolo_app>
 cordova platform add android (cordova platforms ls visualizza le platforms installate)
 cordova platform remove blackberry 
 cordova build
 cordova emulate android 
 cordova run android
+cordova serve http://localhost:8000
+
+cordova plugin add cordova-plugin-dialogs 
+	navigator.notification.alert
+	navigator.notification.confirm
+	navigator.notification.prompt
+	navigator.notification.beep
